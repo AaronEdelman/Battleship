@@ -14,21 +14,17 @@ namespace Battleship
         {
             DisplayRules();
             playerOne = new Player();
-            DisplayBoard();
+            playerOne.OpenOwnBoard();
+            playerOne.DisplayOwnBoard();
+            playerOne.ClearBoard();
             //player one place ships
             //creat player two
             //display player two board
-            //player two place ships
+            //player two place ship
         }
         public void DisplayRules()
         {
             Console.WriteLine("It's battleship.  Please look away when it is not your turn.");
         }
-        public void DisplayBoard()
-        {
-            playerOne.OpenBoard();
-        }
-
-
     }
 }
