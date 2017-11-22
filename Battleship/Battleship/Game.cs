@@ -16,11 +16,13 @@ namespace Battleship
             playerOne = new Player();
             playerOne.OpenOwnBoard();
             playerOne.DisplayOwnBoard();
+            playerOne.PlaceShip();
+            playerOne.DisplayOwnBoard();
             playerOne.ClearBoard();
             //player one place ships
             //creat player two
             //display player two board
-            //player two place ship
+            //player two place ships
         }
         public void DisplayRules()
         {
